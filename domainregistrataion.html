@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Your Domain</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Register Your Domain</h1>
+        <p class="subtitle">Find the perfect domain name for your business or project</p>
+        <div class="search-bar">
+            <input type="text" id="domainName" placeholder="Enter your domain name">
+            <button onclick="checkDomain()">Check Availability</button>
+        </div>
+        <div class="loading" id="loadingMessage">Checking availability...</div>
+        <div class="result" id="resultMessage"></div>
+        <div class="suggestions" id="suggestionsMessage"></div>
+        <a href="registration_form.html" class="btn" target="_blank" rel="noopener noreferrer">Register Now</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
